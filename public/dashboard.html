@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fit UI Studio | Dashboard</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-white sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Fit<span>UI</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="btn btn-outline-dark" href="login.html">Login</a></li>
+          <li class="nav-item"><a class="btn btn-primary" href="register.html">Get Started</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="section-padding bg-soft">
+    <div class="container">
+      <div class="d-flex flex-column flex-lg-row align-items-lg-center justify-content-between gap-3">
+        <div>
+          <h1 class="display-6 fw-bold">Product dashboard</h1>
+          <p class="text-muted">Real-time UI performance metrics for leadership, marketing, and product teams.</p>
+        </div>
+        <div class="d-flex gap-2">
+          <button class="btn btn-outline-dark" data-action="download-report">Download report</button>
+          <button class="btn btn-primary" data-action="share-dashboard">Share dashboard</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="section-padding">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="dashboard-card p-4 h-100">
+            <p class="text-muted">Active users</p>
+            <h3 class="fw-bold">24,580</h3>
+            <span class="text-success"><i class="bi bi-arrow-up"></i> 12% this month</span>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="dashboard-card p-4 h-100">
+            <p class="text-muted">Conversion rate</p>
+            <h3 class="fw-bold">4.8%</h3>
+            <span class="text-success"><i class="bi bi-arrow-up"></i> 0.6% lift</span>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="dashboard-card p-4 h-100">
+            <p class="text-muted">Avg. session</p>
+            <h3 class="fw-bold">6m 12s</h3>
+            <span class="text-danger"><i class="bi bi-arrow-down"></i> 0.4% dip</span>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="dashboard-card p-4 h-100">
+            <p class="text-muted">NPS score</p>
+            <h3 class="fw-bold">61</h3>
+            <span class="text-success"><i class="bi bi-arrow-up"></i> +8 points</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-4 mt-1">
+        <div class="col-lg-8">
+          <div class="dashboard-card p-4 h-100">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <h5 class="fw-bold mb-0">Engagement overview</h5>
+              <span class="text-muted small">Updated 5 mins ago</span>
+            </div>
+            <div class="bg-soft rounded-4 d-flex align-items-center justify-content-center" style="height: 260px;">
+              <div class="text-center">
+                <i class="bi bi-bar-chart-line fs-1 text-primary"></i>
+                <p class="text-muted mb-0">Analytics chart placeholder</p>
+              </div>
+            </div>
+            <div class="row g-3 mt-4">
+              <div class="col-md-4">
+                <p class="text-muted mb-1">Returning users</p>
+                <h5 class="fw-bold">68%</h5>
+              </div>
+              <div class="col-md-4">
+                <p class="text-muted mb-1">Mobile traffic</p>
+                <h5 class="fw-bold">57%</h5>
+              </div>
+              <div class="col-md-4">
+                <p class="text-muted mb-1">Avg. pages</p>
+                <h5 class="fw-bold">5.6</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="dashboard-card p-4 h-100">
+            <h5 class="fw-bold">Team tasks</h5>
+            <p class="text-muted">UI improvements scheduled this week.</p>
+            <div class="d-flex flex-column gap-3">
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <h6 class="mb-1">Refresh onboarding</h6>
+                  <span class="text-muted small">Assigned to Maya</span>
+                </div>
+                <span class="badge text-bg-success">In progress</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <h6 class="mb-1">New pricing layout</h6>
+                  <span class="text-muted small">Assigned to Chris</span>
+                </div>
+                <span class="badge text-bg-warning">Review</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <h6 class="mb-1">Accessibility audit</h6>
+                  <span class="text-muted small">Assigned to Lina</span>
+                </div>
+                <span class="badge text-bg-secondary">Queued</span>
+              </div>
+            </div>
+            <button class="btn btn-outline-dark mt-4 w-100" data-action="view-tasks">View all tasks</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-4 mt-1">
+        <div class="col-lg-7">
+          <div class="dashboard-card p-4 h-100">
+            <h5 class="fw-bold mb-3">Recent activity</h5>
+            <div class="table-responsive">
+              <table class="table align-middle">
+                <thead>
+                  <tr>
+                    <th>Project</th>
+                    <th>Status</th>
+                    <th>Owner</th>
+                    <th>Due date</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Product marketing refresh</td>
+                    <td><span class="badge text-bg-success">Live</span></td>
+                    <td>Harper</td>
+                    <td>Oct 16</td>
+                  </tr>
+                  <tr>
+                    <td>Analytics dashboard v2</td>
+                    <td><span class="badge text-bg-warning">In QA</span></td>
+                    <td>Mateo</td>
+                    <td>Oct 20</td>
+                  </tr>
+                  <tr>
+                    <td>Customer success portal</td>
+                    <td><span class="badge text-bg-secondary">Draft</span></td>
+                    <td>Riya</td>
+                    <td>Oct 28</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="dashboard-card p-4 h-100">
+            <h5 class="fw-bold mb-3">Team pulse</h5>
+            <p class="text-muted">How the team is feeling after the latest sprint.</p>
+            <div class="d-flex flex-column gap-4">
+              <div>
+                <div class="d-flex justify-content-between">
+                  <span class="text-muted">Design velocity</span>
+                  <span class="fw-bold">82%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar bg-primary" style="width: 82%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="d-flex justify-content-between">
+                  <span class="text-muted">Delivery confidence</span>
+                  <span class="fw-bold">76%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar bg-success" style="width: 76%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="d-flex justify-content-between">
+                  <span class="text-muted">Customer feedback</span>
+                  <span class="fw-bold">4.7/5</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar bg-info" style="width: 94%"></div>
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-primary mt-4 w-100" data-action="pulse-details">View sentiment report</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+      <p class="mb-0 text-muted">© 2024 Fit UI Studio. All rights reserved.</p>
+      <div class="d-flex gap-3">
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
